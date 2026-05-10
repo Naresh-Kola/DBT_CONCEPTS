@@ -1,0 +1,39 @@
+1. How do you design a scalable dbt project for a large organization?
+
+2. How do you structure dbt models for multi-domain (finance,sales,marking) data?
+
+3. How do you handle environment separation (dev,qa,prod) in dbt?
+
+4. How do you manage dependencies between models in dbt?
+
+5. How do you optimize slow running dbt models on snowflake?
+
+6. When would you use incremental models vs full refresh?
+
+7. How do you handle late-arriving data in incremental models?
+
+8. How do you debug performance bottlenecks in dbt?
+
+9. What types of tests are available in dbt?
+
+10. How do you implement business-level validations in dbt?
+
+11. How do you dbt help with data lineage?
+
+12. How do you document models and make them discroverable?
+
+13. How do you implement data governance using dbt?
+
+14. How do you implement scd type2 using dbt?
+
+15. How do you handle schema changes in source system?
+
+16. How do you integrate dbt with git workflow?
+
+17. what are macros in dbt and when would yu use them?
+
+18. what are dbt exposures and why are they important?
+
+19. What is the difference between source() and ref() in dbt?
+
+20. What scenarios is it better to use an ephemeral materialization rather than a view or table?
