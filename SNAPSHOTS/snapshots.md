@@ -1214,3 +1214,4 @@ dbt build  # runs snapshots + models + tests in dependency order
 
 **Q15: What's the execution order in a dbt pipeline?**
 > `dbt seed` → `dbt snapshot` → `dbt run` → `dbt test`. Or just `dbt build` (handles all in dependency order). Snapshots run BEFORE models so models can `ref()` the snapshot.
+
